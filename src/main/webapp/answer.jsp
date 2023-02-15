@@ -21,6 +21,7 @@ int seq = Integer.parseInt(request.getParameter("seq"));
 
 	<div align="center">
 		<h2>원글</h2>
+		<!-- 이거 제가 수정함-->
 		<table border="2">
 			<colgroup>
 				<col width="200">
