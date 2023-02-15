@@ -42,11 +42,12 @@ public class MemberDao {
 			System.out.println("2/3 getId success");
 			
 			rs = psmt.executeQuery();
-			System.out.println("3/3 getId success");
 			
 			if(rs.next()) {
 				findid = true;
-			}
+			} else findid = false;
+			
+			System.out.println("3/3 getId success");
 			
 		} catch (SQLException e) {
 			System.out.println("getId() fail");

@@ -24,7 +24,7 @@
 %>
 <script type="text/javascript">
 alert("환영합니다. <%=dto.getId()%>님");
-//location.href = "";
+location.href = "./bbslist.jsp";
 </script>
 		
 <%
