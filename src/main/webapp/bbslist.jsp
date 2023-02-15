@@ -58,7 +58,7 @@ h1 {
 <body>
 
 	<%
-	// 검색
+	// 검색입니다.
 	String choice = request.getParameter("choice");
 	String search = request.getParameter("search");
 
@@ -88,7 +88,7 @@ h1 {
 	int count = dao.getAllBbs(choice, search);
 
 	// 페이지의 수
-	int pageBbs = count / 10; // 글 10개씩 보기
+	int pageBbs = count / 10; // 글 10개씩 보기입니다.
 	if ((count % 10) > 0) {
 		pageBbs = pageBbs + 1;
 	}
